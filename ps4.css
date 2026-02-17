@@ -1,0 +1,10 @@
+.controller.ds4 {
+  background-image: url("https://mrnicoxd.github.io/gampead-ps4/T9vsWlsHgOBq57og_000.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button.pressed {
+  filter: brightness(1.6);
+  transform: scale(0.95);
+}
