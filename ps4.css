@@ -1,11 +1,6 @@
 .controller {
-  background-image: url("https://mrnicoxd.github.io/gampead-ps4/T9vsWlsHgOBq57og_000.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("https://usuario.github.io/repo/mimando.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
-.button.pressed {
-  filter: brightness(1.6);
-  transform: scale(0.95);
-}
-
