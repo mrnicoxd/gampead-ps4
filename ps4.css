@@ -22,3 +22,8 @@
 .stick.pressed {
   filter: brightness(1.6) !important;
 }
+.button.x {
+  position: absolute;
+  left: 520px;
+  top: 260px;
+}
