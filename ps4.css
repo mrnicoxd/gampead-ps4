@@ -3,5 +3,22 @@
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
+ /* BORDE ROJO DE PRUEBA */
+  border: 3px solid red !important;
 }
 
+/* === BOTONES AL PRESIONAR === */
+.button.pressed {
+  filter: brightness(1.8) !important;
+  transform: scale(0.95) !important;
+}
+
+/* === GATILLOS === */
+.trigger.pressed {
+  filter: brightness(1.8) !important;
+}
+
+/* === STICKS === */
+.stick.pressed {
+  filter: brightness(1.6) !important;
+}
