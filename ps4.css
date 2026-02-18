@@ -21,4 +21,12 @@
 /* === GATILLOS === */
 .trigger.pressed {
   filter: brightness(2);
+
+  .button,
+.dpad,
+.stick {
+  opacity: 0;
 }
+
+}
+
