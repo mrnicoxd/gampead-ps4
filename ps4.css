@@ -1,29 +1,24 @@
-.controller {
-  background-image: url("https://mrnicoxd.github.io/gampead-ps4/T9vsWlsHgOBq57og_000.png") !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
- /* BORDE ROJO DE PRUEBA */
-  border: 3px solid red !important;
+/* === MANDO PS4 PERSONALIZADO === */
+.controller.ds4 {
+  background-image: url("https://mrnicoxd.github.io/gampead-ps4/ps4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 800px;   /* ajusta si queda muy grande */
+  height: 400px;
+
+  border: 4px solid red;      /* borde rojo */
+  box-shadow: 0 0 20px red;   /* brillo rojo */
 }
 
-/* === BOTONES AL PRESIONAR === */
+/* === EFECTO BOTONES === */
 .button.pressed {
-  filter: brightness(1.8) !important;
-  transform: scale(0.95) !important;
+  filter: brightness(2);
+  transform: scale(0.9);
 }
 
 /* === GATILLOS === */
 .trigger.pressed {
-  filter: brightness(1.8) !important;
-}
-
-/* === STICKS === */
-.stick.pressed {
-  filter: brightness(1.6) !important;
-}
-.button.x {
-  position: absolute;
-  left: 520px;
-  top: 260px;
+  filter: brightness(2);
 }
